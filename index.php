@@ -48,7 +48,7 @@ $i = 0;
 			   'update' => Tomadedatos($json_todos)
 			];
 
-		print_r($woocommerce->post('products/batch', $datos_subida));
+		print_r($datos_subida);
 		
 
 /* OBSOLETO 
