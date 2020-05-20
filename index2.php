@@ -66,8 +66,8 @@ require __DIR__ . '/vendor/autoload.php';
 					);
 
 					echo '<pre>';
-			      	//print_r($datos_puja);
-			      	print_r($woocommerce2->put('products/'.$id_cliente, $datos_puja));
+			      	print_r($datos_puja);
+			      	//print_r($woocommerce2->put('products/'.$id_cliente, $datos_puja));
 			      	echo '</pre>';
 
 			  }
